@@ -13,9 +13,9 @@ $HANDSEED
   5
 FFFF
   9
-$DIMADEC
- 70
-2
+$DIMASZ
+ 40
+10.0
   9
 $GRIDUNIT
  10
@@ -23,45 +23,45 @@ $GRIDUNIT
  20
 0.0
   9
-$DIMASZ
- 40
-10.0
+$DIMADEC
+ 70
+2
   9
 $DIMGAP
  40
 0.625
   9
-$LUNITS
+$SPLINESEGS
  70
-2
+8
   9
 $AUPREC
  70
 2
   9
-$SPLINESEGS
+$LUNITS
  70
-8
-  9
-$INSUNITS
- 70
-0
+2
   9
 $DIMEXO
  40
 0.625
   9
+$INSUNITS
+ 70
+0
+  9
 $DIMLUNIT
  70
 2
   9
-$DIMTXT
- 40
-10.0
-  9
 $GRIDMODE
  70
 1
+  9
+$DIMTXT
+ 40
+10.0
   9
 $LUPREC
  70
@@ -71,17 +71,21 @@ $DIMSTYLE
   2
 Standard
   9
+$PLIMMAX
+ 10
+210.0
+ 20
+297.0
+  9
 $PLIMMIN
  10
 0.0
  20
 0.0
   9
-$PLIMMAX
- 10
-210.0
- 20
-297.0
+$DIMEXE
+ 40
+1.25
   9
 $PINSBASE
  10
@@ -90,10 +94,6 @@ $PINSBASE
 -216.0
  30
 0.0
-  9
-$DIMEXE
- 40
-1.25
   9
 $DIMAUNIT
  70
@@ -985,7 +985,7 @@ AcDbLayerTableRecord
   2
 osie
  70
-0
+1
  62
 3
   6
@@ -8495,62 +8495,6 @@ Wiezba
   6
 ByLayer
  10
-298.5
- 20
--12.4999999999999858
- 30
-0.0
- 11
-298.5
- 21
-834.5
- 31
-0.0
-  0
-LINE
-  5
-146
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Wiezba
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-290.5
- 20
--12.4999999999999858
- 30
-0.0
- 11
-290.5
- 21
-834.5
- 31
-0.0
-  0
-LINE
-  5
-147
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Wiezba
- 62
-256
-370
--1
-  6
-ByLayer
- 10
 242.1715728752537871
  20
 -105.4999999999998579
@@ -8565,7 +8509,7 @@ ByLayer
   0
 LINE
   5
-148
+146
 100
 AcDbEntity
 100
@@ -8593,7 +8537,7 @@ ByLayer
   0
 LINE
   5
-149
+147
 100
 AcDbEntity
 100
@@ -8621,7 +8565,7 @@ ByLayer
   0
 LINE
   5
-14A
+148
 100
 AcDbEntity
 100
@@ -8649,7 +8593,7 @@ ByLayer
   0
 LINE
   5
-14B
+149
 100
 AcDbEntity
 100
@@ -8677,7 +8621,7 @@ ByLayer
   0
 LINE
   5
-14C
+14A
 100
 AcDbEntity
 100
@@ -8705,7 +8649,7 @@ ByLayer
   0
 LINE
   5
-14D
+14B
 100
 AcDbEntity
 100
@@ -8733,7 +8677,7 @@ ByLayer
   0
 LINE
   5
-14E
+14C
 100
 AcDbEntity
 100
@@ -8761,7 +8705,7 @@ ByLayer
   0
 LINE
   5
-14F
+14D
 100
 AcDbEntity
 100
@@ -8789,7 +8733,7 @@ ByLayer
   0
 LINE
   5
-150
+14E
 100
 AcDbEntity
 100
@@ -8817,7 +8761,7 @@ ByLayer
   0
 LINE
   5
-151
+14F
 100
 AcDbEntity
 100
@@ -8845,7 +8789,7 @@ ByLayer
   0
 LINE
   5
-152
+150
 100
 AcDbEntity
 100
@@ -8873,7 +8817,7 @@ ByLayer
   0
 LINE
   5
-153
+151
 100
 AcDbEntity
 100
@@ -8901,7 +8845,7 @@ ByLayer
   0
 LINE
   5
-154
+152
 100
 AcDbEntity
 100
@@ -8929,7 +8873,7 @@ ByLayer
   0
 LINE
   5
-155
+153
 100
 AcDbEntity
 100
@@ -8957,7 +8901,7 @@ ByLayer
   0
 LINE
   5
-156
+154
 100
 AcDbEntity
 100
@@ -8985,7 +8929,7 @@ ByLayer
   0
 LINE
   5
-157
+155
 100
 AcDbEntity
 100
@@ -9013,7 +8957,7 @@ ByLayer
   0
 LINE
   5
-158
+156
 100
 AcDbEntity
 100
@@ -9041,7 +8985,7 @@ ByLayer
   0
 LINE
   5
-159
+157
 100
 AcDbEntity
 100
@@ -9069,7 +9013,7 @@ ByLayer
   0
 LINE
   5
-15A
+158
 100
 AcDbEntity
 100
@@ -9097,7 +9041,7 @@ ByLayer
   0
 LINE
   5
-15B
+159
 100
 AcDbEntity
 100
@@ -9125,7 +9069,7 @@ ByLayer
   0
 LINE
   5
-15C
+15A
 100
 AcDbEntity
 100
@@ -9153,63 +9097,63 @@ ByLayer
   0
 LINE
   5
+15B
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Wiezba
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1070.8284271247462129
+ 20
+481.5000000000001137
+ 30
+0.0
+ 11
+1418.5
+ 21
+481.5000000000001137
+ 31
+0.0
+  0
+LINE
+  5
+15C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Wiezba
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+1070.8284271247462129
+ 20
+494.5000000000001137
+ 30
+0.0
+ 11
+1418.5
+ 21
+494.5000000000001137
+ 31
+0.0
+  0
+LINE
+  5
 15D
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Wiezba
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-1070.8284271247462129
- 20
-481.5000000000001137
- 30
-0.0
- 11
-1418.5
- 21
-481.5000000000001137
- 31
-0.0
-  0
-LINE
-  5
-15E
-100
-AcDbEntity
-100
-AcDbLine
-  8
-Wiezba
- 62
-256
-370
--1
-  6
-ByLayer
- 10
-1070.8284271247462129
- 20
-494.5000000000001137
- 30
-0.0
- 11
-1418.5
- 21
-494.5000000000001137
- 31
-0.0
-  0
-LINE
-  5
-15F
 100
 AcDbEntity
 100
@@ -9237,7 +9181,7 @@ ByLayer
   0
 LINE
   5
-160
+15E
 100
 AcDbEntity
 100
@@ -9265,7 +9209,7 @@ ByLayer
   0
 LINE
   5
-161
+15F
 100
 AcDbEntity
 100
@@ -9293,7 +9237,7 @@ ByLayer
   0
 LINE
   5
-162
+160
 100
 AcDbEntity
 100
@@ -9321,7 +9265,7 @@ ByLayer
   0
 LINE
   5
-163
+161
 100
 AcDbEntity
 100
@@ -9349,7 +9293,7 @@ ByLayer
   0
 LINE
   5
-164
+162
 100
 AcDbEntity
 100
@@ -9377,7 +9321,7 @@ ByLayer
   0
 LINE
   5
-165
+163
 100
 AcDbEntity
 100
@@ -9405,7 +9349,7 @@ ByLayer
   0
 LINE
   5
-166
+164
 100
 AcDbEntity
 100
@@ -9428,6 +9372,118 @@ ByLayer
 1246.2684271247462675
  21
 834.4999999999996589
+ 31
+0.0
+  0
+LINE
+  5
+165
+100
+AcDbEntity
+100
+AcDbLine
+  8
+strop
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+915.5
+ 20
+-45.0000000000000639
+ 30
+0.0
+ 11
+915.5
+ 21
+-33.0
+ 31
+0.0
+  0
+LINE
+  5
+166
+100
+AcDbEntity
+100
+AcDbLine
+  8
+strop
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+397.5
+ 20
+-44.9999999999999716
+ 30
+0.0
+ 11
+397.5
+ 21
+-33.0
+ 31
+0.0
+  0
+LINE
+  5
+167
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Wiezba
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+290.5
+ 20
+234.5000000000001137
+ 30
+0.0
+ 11
+290.5
+ 21
+834.5
+ 31
+0.0
+  0
+LINE
+  5
+168
+100
+AcDbEntity
+100
+AcDbLine
+  8
+Wiezba
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+298.5
+ 20
+234.5000000000001137
+ 30
+0.0
+ 11
+298.5
+ 21
+834.5
  31
 0.0
   0
@@ -9469,7 +9525,7 @@ E
   3
 AcDbVariableDictionary
 350
-167
+169
   0
 DICTIONARY
   5
@@ -9933,7 +9989,7 @@ Layout2
   0
 DICTIONARY
   5
-167
+169
 100
 AcDbDictionary
 281
@@ -9941,15 +9997,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-169
+16B
   3
 HIDETEXT
 350
-168
+16A
   0
 DICTIONARYVAR
   5
-168
+16A
 100
 DictionaryVariables
 280
@@ -9959,7 +10015,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-169
+16B
 100
 DictionaryVariables
 280
