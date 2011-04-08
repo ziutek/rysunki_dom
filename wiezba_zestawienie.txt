@@ -16,7 +16,7 @@ Przekrój 10 x 18 (0,27 m3):
 
 2 x 760
 
-Przekrój 8 x 18: (5,74 m3):
+Przekrój 8 x 18 (5,74 m3):
 
 23 x 710 
  3 x 680
@@ -29,3 +29,27 @@ Przekrój 8 x 18: (5,74 m3):
 
 -----------------------------
 SUMA:             7.7 m3
+
+
+Dodatkowo, po zmianach w projekcie
+==================================
+
+Przekrój 13 x 17 (0.27 m3):
+
+1 x 670
+1 x 540
+
+Przekrój 13 x 15 (0.13 m3):
+
+1 x 670
+
+Przekrój 13 x 13 (0.20 m3):
+
+4 x 290
+
+---------------------------
+SUMA dodatkowych: 0.6 m3
+
+Cena: 922 zł/m3
+
+
