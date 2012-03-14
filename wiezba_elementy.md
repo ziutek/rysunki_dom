@@ -68,7 +68,7 @@
 
 13 x 13:
 
-* 1 x 648 .
+* 1 x 648 . (po zmianach w proj, do pocięcia na 2 słupy na taras)
 * 4 x 207. 
 * 6 x 60 .?
 
@@ -79,7 +79,11 @@ Płatewie 13 x 17:
 * okap:  1 x 520
 * taras: 1 x 648
 
+Płatew 13 x 15 taras
+
+* 1 x 648
+
 Słupy taras 13 x 13 (+ poziome belki usztywniajace):
 
-* 6 x 275
+* 4 x 275
 
