@@ -13,9 +13,9 @@ $HANDSEED
   5
 FFFF
   9
-$DIMADEC
- 70
-2
+$DIMASZ
+ 40
+20.0
   9
 $GRIDUNIT
  10
@@ -23,53 +23,63 @@ $GRIDUNIT
  20
 0.0
   9
-$DIMASZ
- 40
-20.0
+$DIMADEC
+ 70
+2
   9
 $DIMGAP
  40
 2.0
   9
-$LUNITS
+$SPLINESEGS
  70
-2
+8
   9
 $AUPREC
  70
 2
   9
-$SPLINESEGS
+$LUNITS
  70
-8
-  9
-$INSUNITS
- 70
-0
+2
   9
 $DIMEXO
  40
 2.0
   9
+$INSUNITS
+ 70
+0
+  9
 $DIMLUNIT
  70
 2
-  9
-$GRIDMODE
- 70
-1
   9
 $DIMTXT
  40
 20.0
   9
+$GRIDMODE
+ 70
+1
+  9
 $LUPREC
  70
 4
   9
+$PSVPSCALE
+ 40
+0.15
+  9
 $DIMSTYLE
   2
 Standard
+  9
+$PLIMMAX
+ 10
+297.0
+ 20
+210.0
   9
 $PLIMMIN
  10
@@ -77,17 +87,11 @@ $PLIMMIN
  20
 0.0
   9
-$PLIMMAX
- 10
-210.0
- 20
-297.0
-  9
 $PINSBASE
  10
--551.5
+31.9075750472349284
  20
--216.0
+39.0454949819287265
  30
 0.0
   9
@@ -1005,7 +1009,7 @@ AcDbLayerTableRecord
   2
 strop
  70
-0
+1
  62
 7
   6
@@ -1051,7 +1055,7 @@ Wiezba
   6
 CONTINUOUS
 370
-0
+18
 390
 F
   0
@@ -1071,7 +1075,7 @@ Wymiary
   6
 CONTINUOUS
 370
-0
+13
 390
 F
   0
@@ -1085,7 +1089,7 @@ AcDbLayerTableRecord
   2
 Fundament-taras
  70
-0
+1
  62
 7
   6
@@ -4499,7 +4503,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -4955,7 +4959,7 @@ Standard
  50
 0.0
  73
-0
+1
  44
 1.0
   0
@@ -4995,7 +4999,7 @@ Standard
  50
 0.0
  73
-0
+1
  44
 1.0
   0
@@ -7831,7 +7835,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -7891,7 +7895,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -7951,7 +7955,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8011,7 +8015,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8071,7 +8075,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8131,7 +8135,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8191,7 +8195,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8251,7 +8255,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8311,7 +8315,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8371,7 +8375,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8431,7 +8435,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8491,7 +8495,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8551,7 +8555,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8611,7 +8615,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8671,7 +8675,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8731,7 +8735,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8791,7 +8795,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8935,7 +8939,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -8995,7 +8999,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -9055,7 +9059,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -9115,7 +9119,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -10127,7 +10131,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -10187,7 +10191,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -10723,7 +10727,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -10783,7 +10787,7 @@ AcDbDimension
  71
 5
  72
-0
+1
  41
 1.0
  42
@@ -13447,7 +13451,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13507,7 +13511,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13567,7 +13571,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13627,7 +13631,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13687,7 +13691,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -13747,7 +13751,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
