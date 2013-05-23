@@ -3301,7 +3301,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3445,7 +3445,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3505,7 +3505,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3565,7 +3565,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3877,7 +3877,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3937,7 +3937,7 @@ AcDbDimension
  71
 5
  72
-1
+0
  41
 1.0
  42
@@ -3964,6 +3964,62 @@ AcDbAlignedDimension
 90.0
 100
 AcDbRotatedDimension
+  0
+LINE
+  5
+9C
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+-0.9999999999999687
+ 20
+-13.5000000000000036
+ 30
+0.0
+ 11
+206.0000000000000284
+ 21
+-13.4999999999999858
+ 31
+0.0
+  0
+LINE
+  5
+9D
+100
+AcDbEntity
+100
+AcDbLine
+  8
+0
+ 62
+256
+370
+-1
+  6
+ByLayer
+ 10
+206.0000000000000284
+ 20
+-23.0000000000000071
+ 30
+0.0
+ 11
+206.0000000000000284
+ 21
+-13.4999999999999858
+ 31
+0.0
   0
 ENDSEC
   0
@@ -4003,7 +4059,7 @@ E
   3
 AcDbVariableDictionary
 350
-9C
+9E
   0
 DICTIONARY
   5
@@ -4467,7 +4523,7 @@ Layout2
   0
 DICTIONARY
   5
-9C
+9E
 100
 AcDbDictionary
 281
@@ -4475,15 +4531,15 @@ AcDbDictionary
   3
 DIMASSOC
 350
-9E
+A0
   3
 HIDETEXT
 350
-9D
+9F
   0
 DICTIONARYVAR
   5
-9D
+9F
 100
 DictionaryVariables
 280
@@ -4493,7 +4549,7 @@ DictionaryVariables
   0
 DICTIONARYVAR
   5
-9E
+A0
 100
 DictionaryVariables
 280
